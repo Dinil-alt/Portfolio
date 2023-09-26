@@ -1,0 +1,188 @@
+nav{
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    margin: 0;
+    background-color: rgb(204, 211, 214);
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.ul{
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: right;
+    top: 0;
+}
+.li{
+    list-style-type: none;
+    font-family: Mooli;
+    color: black; 
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+}
+video{
+    position: relative;
+}
+.wel{
+    position: absolute;
+    top: 300px;
+    right: 30%;
+    font-family: Kalam;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(19, 48, 3);
+}
+.img1{
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.tim{
+    font-family: cursive;
+    color:crimson;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.alpha{
+    color: darkolivegreen;
+    text-align: center;
+}
+.alphad{
+    position: absolute;
+    top: 1200px;
+    align-items: center;
+    justify-content: center;
+    right: 40%;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    flex-direction: column;
+    border: 2px ridge red   ;
+    width: 400px;
+    height: 120px;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+.about{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.timag{
+    width: 400px;
+    height: 250px;
+}
+.tim1{
+    font-family: Chakra Petch;
+    font-size:30px ;
+    margin-right: 30%;
+}
+.para{
+    font-family:Chakra Petch;
+    font-size: larger;
+    margin: 20px;
+}
+.timdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.primdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.prim{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.prim:hover{
+    border: 5px solid crimson;
+    box-shadow:10px 10px 10px 10px;
+}
+.hr1{
+    color: black;
+}
+.project{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    color: aquamarine;
+    background-color: black;
+}
+.text{
+    text-align: center;
+    margin: 10px;
+    border: 2px black solid;
+    border-radius: 3px;
+}
+.form{
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: 400px;
+    height: 450px;
+    border:2px inset brown;
+    margin: 20px;
+    background: linear-gradient(to top,green 50% white 50%);
+    background-size: 100% 200%;
+    transition: all 1.8s;
+}
+.box:hover{
+    border: none;
+    box-shadow: 2px 3px 1px blue;
+    background-position: left bottom;
+}
+.box img{
+    width:100%
+}
+.box h4{
+    text-align: center;
+    color: black;
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}.ser{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h4s{
+    font-family:  sans-serif;
+}
+.box:hover{
+    background-color: burlywood;
+}
+footer{
+    border: 2px solid transparent;
+    background-color: rgb(204, 211, 214);
+    width: 100%;
+    height: 100px;
+}
+.footdiv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    margin: 10px;
+    color: blue;
+    font-size: large;
+    font-family: cursive;
+}
+.footj{
+    align-items: center;
+    text-align: center;
+}
